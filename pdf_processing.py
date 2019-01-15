@@ -278,6 +278,7 @@ def main():
     docs = []
     file_names = []
     original_directory = os.getcwd() # absolute directory
+    print(original_directory)
 
     # extraction of all pdfs in a given input_directory and converting them to pngs, one page per pngs
     for f in os.listdir(input_directory):
